@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+}
+body {
+	font-family: 'Arial';
+}
+
+.container {display: flex; flex-direction: column; align-items: center; }
+	.container h1 {color: cyan; margin: 20px 0 20px 0;}
+
+form input {border-radius: 5px; outline: none; border: 1px solid #ddd; padding: 8px; margin: 10px;}
+	 form #ender {width: 500px}
+	 form #estado {width: 20px}
+
+#mensagem {display: none; background-color: #E86060; width: 150px; height: 30px; text-align: center;}
+	#mensagem p {color: #fff; line-height: 30px}
+
